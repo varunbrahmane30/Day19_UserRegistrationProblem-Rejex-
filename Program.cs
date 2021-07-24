@@ -6,7 +6,11 @@ namespace Day19_RejexUserRegistration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("User Registraton Problem Using Rejex.");
+            
+            Console.Write("Enter first name:");
+            String fname = Console.ReadLine();
+            Console.WriteLine(UserRegistration.validateFirstName(fname));
+            Console.WriteLine();
         }
     }
 }
