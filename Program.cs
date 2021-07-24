@@ -17,6 +17,11 @@ namespace Day19_RejexUserRegistration
             Console.WriteLine(UserRegistration.validateLastName(lname));
             Console.WriteLine();
 
+            Console.Write("Enter Eamil:");
+            String email = Console.ReadLine();
+            Console.WriteLine(UserRegistration.validateEmail(email));
+            Console.WriteLine();
+
             Console.ReadKey();
         }
     }
