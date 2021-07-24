@@ -11,6 +11,13 @@ namespace Day19_RejexUserRegistration
             String fname = Console.ReadLine();
             Console.WriteLine(UserRegistration.validateFirstName(fname));
             Console.WriteLine();
+
+            Console.Write("Enter Last name:");
+            String lname = Console.ReadLine();
+            Console.WriteLine(UserRegistration.validateLastName(lname));
+            Console.WriteLine();
+
+            Console.ReadKey();
         }
     }
 }
