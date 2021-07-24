@@ -34,6 +34,7 @@ namespace Day19_RejexUserRegistration
             Console.WriteLine(UserRegistration.validatePassword(password));
             Console.WriteLine();
 
+
             Console.ReadKey();
         }
     }
