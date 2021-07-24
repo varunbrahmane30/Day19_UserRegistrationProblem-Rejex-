@@ -6,6 +6,8 @@ namespace Day19_RejexUserRegistration
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("  Enter the Details ");
+            Console.WriteLine();
 
             Console.Write("Enter first name : ");
             String fname = Console.ReadLine();
