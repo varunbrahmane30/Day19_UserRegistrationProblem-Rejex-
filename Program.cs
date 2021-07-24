@@ -6,7 +6,7 @@ namespace Day19_RejexUserRegistration
     {
         static void Main(string[] args)
         {
-            
+
             Console.Write("Enter first name : ");
             String fname = Console.ReadLine();
             Console.WriteLine(UserRegistration.validateFirstName(fname));
@@ -26,6 +26,12 @@ namespace Day19_RejexUserRegistration
             String mobileNo = Console.ReadLine();
             Console.WriteLine(UserRegistration.validateMobileNo(mobileNo));
             Console.WriteLine();
+
+            Console.Write("Enter Password : ");
+            String password = Console.ReadLine();
+            Console.WriteLine(UserRegistration.validatePassword(password));
+            Console.WriteLine();
+
 
             Console.ReadKey();
         }
